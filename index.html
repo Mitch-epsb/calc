@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Area of Trapezoid Claculator</h1>
+    <img src="img/Area-of-a-Trapezoid.png" alt="" />
+    <div id="side">
+      <h2>Inputs</h2>
+      <label for="drop">Choose unit</label>
+      <select name="drop" id="dropd">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="ft">ft</option>
+        <option value="in">in</option>
+      </select>
+      <p>Length of the top base (b1): <input type="number" id="inp-b1" /></p>
+      <p>Length of the bottom base (b2): <input type="number" id="inp-b2" /></p>
+      <p>Height of the trapezoid (h): <input type="number" id="inp-h" /></p>
+      <button id="btn-calc">CALCULATE</button>
+      <h2>Output</h2>
+      <p>
+        The area of the trapezoid is <span id="out">----</span>.
+        <span id="check"></span>
+      </p>
+    </div>
+  </body>
+</html>
